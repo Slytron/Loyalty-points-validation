@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Loyalty Points Tests
 
 Automated **Playwright** test suite for the loyalty points application, organized for maintainability and CI use.
