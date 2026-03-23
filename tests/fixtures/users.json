@@ -1,0 +1,6 @@
+{
+  "defaultUser": {
+    "email": "testuser@example.com",
+    "password": "SecurePassword123"
+  }
+}

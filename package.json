@@ -1,0 +1,24 @@
+{
+  "name": "loyalty-points-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright E2E test suite for the loyalty points application",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:e2e": "playwright test --grep-invert @smoke",
+    "report": "playwright show-report",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
+    "dotenv": "^16.4.7",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.2",
+    "typescript": "^5.8.3"
+  }
+}
