@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Loyalty Points Tests
 
 Automated **Playwright** test suite for the loyalty points application, organized for maintainability and CI use.
@@ -68,3 +69,6 @@ GitHub Actions workflow at `.github/workflows/playwright.yml`:
 - runs smoke tests on `push` to `main`
 - runs full E2E suite on manual/scheduled triggers
 - uploads Playwright HTML report and test artifacts
+=======
+# Loyalty-points-validation
+>>>>>>> 7c97c68f1dc5c6f0076dfd669ef30492dca0f164
