@@ -69,4 +69,5 @@ GitHub Actions workflow at `.github/workflows/playwright.yml`:
 - runs full E2E suite on manual/scheduled triggers
 - uploads Playwright HTML report and test artifacts
 =======
+# Loyalty-points-validation
 
