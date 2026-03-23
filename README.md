@@ -70,4 +70,4 @@ GitHub Actions workflow at `.github/workflows/playwright.yml`:
 - uploads Playwright HTML report and test artifacts
 =======
 # Loyalty-points-validation
->>>>>>> 7c97c68f1dc5c6f0076dfd669ef30492dca0f164
+
