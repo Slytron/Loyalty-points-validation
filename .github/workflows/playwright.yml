@@ -1,8 +1,6 @@
 name: Playwright Tests
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "10 22 * * *"
@@ -30,12 +28,7 @@ jobs:
       - name: Prepare environment
         run: cp .env.example .env
 
-      - name: Run smoke tests (push)
-        if: github.event_name == 'push'
-        run: npm run test:smoke
-
-      - name: Run full e2e (manual or schedule)
-        if: github.event_name != 'push'
+      - name: Run full e2e
         run: npm run test:e2e
 
       - name: Upload Playwright report
