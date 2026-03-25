@@ -68,6 +68,3 @@ GitHub Actions workflow at `.github/workflows/playwright.yml`:
 - runs smoke tests on `push` to `main`
 - runs full E2E suite on manual/scheduled triggers
 - uploads Playwright HTML report and test artifacts
-=======
-
-
